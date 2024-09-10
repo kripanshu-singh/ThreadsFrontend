@@ -34,7 +34,7 @@ const ImagePreview = ({ id }) => {
                                                 src={images[index].src}
                                                 width={650}
                                                 height={590}
-                                                className="rounded-lg object-cover md:h-[300px] md:w-full lg:h-full"
+                                                className="rounded-lg object-cover md:h-[300px] md:w-full lg:h-full select-none"
                                             />
                                             <div className="absolute top-2/4 z-10 flex w-full items-center justify-between text-3xl p-2">
                                                 <ChevronLeft
